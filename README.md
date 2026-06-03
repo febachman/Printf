@@ -60,6 +60,7 @@ To use ft_printf in your code, include the header and compile your files along w
 
 Example Code (main.c)
 
+```bash
 #include "ft_printf.h"
 
 int main(void)
@@ -68,13 +69,16 @@ int main(void)
     ft_printf("Hex: %x | Pointer: %p\n", 255, &main);
     return (0);
 }
+```
+
 Compilation Command
-Bash
+```bash
 cc main.c libftprintf.a -I. -o program_executable
 Output
 Plaintext
 Hello world!!
 Hex: ff | Pointer: 0x5560b4a2d1a0
+```
 
 ## Resources
 
